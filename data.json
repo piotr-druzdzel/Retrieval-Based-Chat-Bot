@@ -1,0 +1,1617 @@
+{
+    "intents": [
+        {
+            "tag": "Administrator bota",
+            "patterns": [
+                "Kto pomaga z chat botem ? ",
+                "Kto jest Twoim administartorem ?",
+                "Kto obsługuje tego bota ?",
+                "Kto Ciebie zatrudnia ?",
+                "Kto administruje chata ?",
+                "Nie odpowiadasz prawidłowo na pytania, do kogo to zgłosić ?"
+            ],
+            "responses": [
+                "emplocity"
+            ]
+        },
+        {
+            "tag": "Aplikować w rekrutacji wewnętrznej",
+            "patterns": [
+                "Jak aplikować? ",
+                "Gdzie mogę złożyć swoje CV?",
+                "Jak aplikować na rekrutację wewnętrzną?",
+                "Jak aplikować na pozycję wewnętrzną?",
+                "Jak mogę się rekrutować?",
+                "Gdzie mogę wysłać CV?",
+                "Jak mogę wysłać CV?",
+                "Co zrobić żeby aplikować na inne stanowisko?",
+                "Gdzie mogę aplikować?",
+                "Komu wysłać życiorys w celach rekrutacyjnych?"
+            ],
+            "responses": [
+                "Poprzez przycisk Aplikuj umieszczony w ogłoszeniu o pracę. Zostaniesz poproszony o załączenie CV."
+            ]
+        },
+        {
+            "tag": "Benefity dla pracowników",
+            "patterns": [
+                "Jakie mamy benefity w firmie?",
+                "Wykaz benefitów w firmie.",
+                "Jakie mamy benefity?",
+                "Jakie są benefity w firmie?",
+                "czy mamy prywatną opiekę medyczną?",
+                "czy w firmie mamy karty multisport?",
+                "benefity w firmie"
+            ],
+            "responses": [
+                "Mamy w firmie opiekę medyczną i multisport"
+            ]
+        },
+        {
+            "tag": "Bot",
+            "patterns": [
+                "Dla kogo pracujesz ?",
+                "Dla kogo zostałeś stworzony?"
+            ],
+            "responses": [
+                "Dla Ciebie :)"
+            ]
+        },
+        {
+            "tag": "Bot-informacje",
+            "patterns": [
+                "Ktoś Ty?",
+                "Ktoś ty jest?",
+                "ktoś jest?"
+            ],
+            "responses": [
+                "Jestem wewnętrznym botem Twojej firmy i znam odpowiedzi na (niemal) wszystkie pytania!"
+            ]
+        },
+        {
+            "tag": "Brak zapłaty za zwolnienie lekarskie",
+            "patterns": [
+                "Dlaczego nie mam zapłacone za L-4",
+                "Brak zapłaty za zwolnienie lekarskie"
+            ],
+            "responses": [
+                "Lekarz mógł nie wystawić zwolnienia elektronicznego w PUE lub wystawić je błędnie. Jeżeli była to opieka nad dzieckiem lub chorym członkiem rodziny to brak druku z-15a lu z-15b"
+            ]
+        },
+        {
+            "tag": "Choroba dziecka w czasie urlopu",
+            "patterns": [
+                "Co w przypadku kiedy na urlopie zachoruje mi dziecko i otrzymam zwolnienie lekarskie?",
+                "Mam urlop i zachorowało mi dziecko? Co powinienem zrobić?",
+                "Zachorowało mi dziecko I mam zwolnienie",
+                "Dostałam zwolnienie lekarskie na chore dziecko",
+                "Otrzymałam zwolnienie lekarskie z powodu chorego dziecka",
+                "Otrzymałam zwolnienie lekarskie z powodu choroby dziecka",
+                "Otrzymałam zwolnienie lekarskie z powodu chorego syna",
+                "Otrzymałam zwolnienie lekarskie z powodu chorej córki",
+                "Zachorowała mi córka I mam zwolnienie"
+            ],
+            "responses": [
+                "Jeżeli pracownik korzysta już z urlopu wypoczynkowego, to wtedy choroba dziecka pracownika nie przerywa tego urlopu. Jeśli dziecko pracownika zachoruje, to pracownik opiekuje się chorym dzieckiem w ramach swojego urlopu wypoczynkowego."
+            ]
+        },
+        {
+            "tag": "Choroba dziecka w czasie urlopu",
+            "patterns": [
+                "Zachorował mi syn I mam zwolnienie"
+            ],
+            "responses": [
+                "Jeżeli pracownik korzysta już z urlopu wypoczynkowego, to wtedy choroba dziecka pracownika nie przerywa tego urlopu. Jeśli dziecko pracownika zachoruje, to pracownik opiekuje się chorym dzieckiem w ramach swojego urlopu wypoczynkowego."
+            ]
+        },
+        {
+            "tag": "Choroba w czasie urlopu",
+            "patterns": [
+                "Co w przypadku kiedy przebywam na urlopie i zachoruje? ",
+                "Jestem na urlopie, otrzymałem zwolnienie lekarskie. Co mam zrobić?",
+                "Zachorowałam w czasie urlopu",
+                "Zachorowałem w czasie urlopu",
+                "W czasie urlopu zachorowałam",
+                "Jestem na urlopie i zachorowałam",
+                "W trakcie urlopu zachorowałam"
+            ],
+            "responses": [
+                "Pracodawca musi przesunąć urlop wypoczynkowy pracownikowi, który zachorował w czasie wypoczynku. Okres choroby nie odbiera pracownikowi możliwości wypoczynku. Część urlopu niewykorzystaną z powodu czasowej niezdolności do pracy wskutek choroby pracodawca jest obowiązany udzielić w terminie późniejszym."
+            ]
+        },
+        {
+            "tag": "Dofinansowanie studiów",
+            "patterns": [
+                "czy mogę liczyć na dofinansowanie do studiów podyplomowych?",
+                "Czy firma może sfinansowac moje studia ?"
+            ],
+            "responses": [
+                "Tak, jeśli zdobyta wiedza jest ci potrzeba na obecnym stanowisku pracy, porozmawiaj w tym temacie ze  swoim przełożonym."
+            ]
+        },
+        {
+            "tag": "Dostarczenie L4",
+            "patterns": [
+                "Czy muszę poinformować Pracodawcę że mam zwolnienie elektroniczne?",
+                "Do kiedy powinienem dostarczyć zwolnienie lekarskie? ",
+                "jestem chora, co teraz? ",
+                "Do kiedy muszę dostarczyć zwolnienie lekarskie? ",
+                "Do kiedy dostarczyć zwolnienie lekarskie? ",
+                "Zwolnienie lekarskie, w jakim czasie mam przynieść?",
+                "Jaki jest termin przyniesienia zwolnienia lekarskiego?"
+            ],
+            "responses": [
+                "Przepisy w sposób jednoznaczny wskazują, że pracownik ma 7 dni na dostarczenie do pracodawcy poświadczenia o chorobie. Jeśli tego nie zrobi, zasiłek zostanie obniżony o 25 proc. za okres od 8. dnia orzeczonej niezdolności do pracy do dnia dostarczenia zwolnienia, chyba że spóźnienie nastąpiło z przyczyn od niego niezależnych. Problem ten nie dotyczy zwolnień lekarskich wystawionych elektronicznie."
+            ]
+        },
+        {
+            "tag": "Długość zwolnienia na dziecko",
+            "patterns": [
+                "Jak długo mogę przebywać na zwolnieniu lekarskim na dziecko?",
+                "Ile mogę zostać z chorym dzieckiem w domu?",
+                "ile można przebywać na zwolnieniu lekarskim na dziecko?",
+                "Jak długo mogę być na L4 na dziecko?",
+                "jaki jest maksymalny czas zwolnienia lekarskim na dziecko?"
+            ],
+            "responses": [
+                "Zasiłek opiekuńczy przysługuje przez okres zwolnienia od pracy z powodu konieczności osobistego sprawowania opieki:\n-nie dłużej niż przez 60 dni w roku kalendarzowym, jeżeli opieka sprawowana jest nad chorym dzieckiem do lat 14,\n-nie dłużej niż przez 14 dni w roku kalendarzowym, jeżeli opieka sprawowana jest nad dzieckiem w wieku ponad 14 lat lub innymi chorymi członkami rodziny.\nŁączny okres wypłaty zasiłku opiekuńczego z powodu opieki nad dziećmi i innymi członkami rodziny nie może przekroczyć 60. dni w roku kalendarzowym."
+            ]
+        },
+        {
+            "tag": "Formularze ZUS",
+            "patterns": [
+                "ZUS druki         ",
+                "Jakie dokumenty musze wypełnić do złożenia świadczenia przedemerytalnego ?",
+                "Szukam formularzy do złożenia podania o emeryture do ZUS ?",
+                "Jaki formularz do renty ?",
+                "Jaki formularz do ZUS o świadczenie rehabilitacyjne ?"
+            ],
+            "responses": [
+                "Wszytskie formularze ZUS są dostępne pod tym adresem: http://www.zus.pl/wzory-formularzy"
+            ]
+        },
+        {
+            "tag": "Home office",
+            "patterns": [
+                "Na czym polega praca zdalna? ",
+                "Jakie są zasady udzielania home office?",
+                "Jakie są zasady udzielania pracy zdalnej?",
+                "Jakie są zasady pracowania zdalnie",
+                "Czy u nas w firmie występuje praca zdalna z domu?",
+                "Czy mogę pracować zdalnie z domu?",
+                "Czy mogę pracować poza biurem?",
+                "Czy mogę mieć home office?",
+                "Czy jest możliwość pracy zdalnej z domu?",
+                "Czy jest możliwość pracy poza biurem?",
+                "praca zdalna zgoda ",
+                "Jak wygląda możliwość pracy w domu?",
+                "Jak mogę wziąć home office?",
+                "Jak mogę formalnie zgłosić home office?",
+                "home office",
+                "Zgłoszenie home office",
+                "Zgłoszenie pracy zdalnej",
+                "Chcę pracować zdalnie",
+                "Jak zgłosić pracę zdalną?",
+                "Praca zdalna",
+                "Jak zgłosić home office?",
+                "Kiedy mogę pracować zdalnie z domu?",
+                "Co zrobić, żeby móc pracować zdalnie z domu?",
+                "Czy potrzebna jest zgoda przełożonego do pracy zdalnej?",
+                "Czy potrzebuję zgody szefa na home office?",
+                "Jak uzyskać możliwość pracy zdalnej?",
+                "Jak wygląda proces związany ze skorzystaniem z możliwości pracy w domu?"
+            ],
+            "responses": [
+                "- osoba pracująca zdalnie musi być przez 8 godzin dostępna na slacku/mailu/jirze i pod telefonem :) - jeśli ktoś pracuje zdalnie ma obowiązek uczestniczenia we wszystkich zaplanowanych spotkaniach  /videocall, call/-\njeśli ktoś chce pracować zdalnie powinien minimum dzień wcześniej poinformować i uzyskać zgodę przełozonego. O nieobecnościach i wcześniejszych wyjściach bądź późniejszych przyjściach do biura również informujcie przełożonego."
+            ]
+        },
+        {
+            "tag": "Kiedy zrobić badania",
+            "patterns": [
+                "Czy mam dzień wolny na robienie badań lekarskich okresowych?",
+                "Jeżeli badania okresowe, to wolny dzień ",
+                "Jeżeli robię badania lekarskie okresowe, to mam dzień wolny?",
+                "Jeżeli robię badania okresowe, to mam dzień wolny?",
+                "Dzień wolny na robienie badań okresowych",
+                "Dzień wolny na robienie badań"
+            ],
+            "responses": [
+                "Okresowe i kontrolne badania lekarskie przeprowadza się w miarę możliwości w godzinach pracy. Za czas niewykonywania pracy w związku z przeprowadzanymi badaniami pracownik zachowuje prawo do wynagrodzenia. W razie przejazdu na te badania do innej miejscowości przysługują mu należności na pokrycie kosztów przejazdu według zasad obowiązujących przy podróżach służbowych."
+            ]
+        },
+        {
+            "tag": "Kwota refundacja okularów",
+            "patterns": [
+                "Ile dostanę zwrotu za zakup okularów?",
+                "Jaką kwotę Pracodawca zwróci mi za zakup okularów?",
+                "Czy mogę liczyć na zwrot całej kwoty za okulary?",
+                "Jaka jest kwota zwrotu za okulary?",
+                "Jaki jest poziom refundacji okularów?",
+                "Jaki kwotę zwrotu dostanę przy zakupie okularów",
+                "kwota zwrotu za zakup okularów",
+                "wysokość zwrotu za zakup okularów",
+                "poziom zwrotu za zakup okularów",
+                "Jak duże jest dofinansowanie do zakupu okularów?",
+                "Ile wynosi refundacja kosztów okularów?",
+                "Ile wynosi kwota refundacji za okulary korekcyjne?",
+                "Jaki jest zwrot kosztów za zakup okularów korekcyjnych?"
+            ],
+            "responses": [
+                "Zwrot kosztów zakupu okularów i soczewek korygujących wzrok przysługuje pracownikowi do wysokości 300 zł brutto zgodnie z dostarczoną fakturą VAT. Jeżeli faktura wynosi mniej niż 300 zł różnica nie będzie wypłacana pracownikowi."
+            ]
+        },
+        {
+            "tag": "Luxmed kontakt",
+            "patterns": [
+                "Jaki jest telefon do Luxmedu ?",
+                "Jak skontaktować się z Luxmedem ?",
+                "Potrzebuję telefon do Luxmedu ?",
+                "Jaki jest numer telefonu na infolinię do Luxmedu ?",
+                "W jakich godzinach jest czynna infolinia Luxmedu ?",
+                "Kontakt do Luxmedu ?"
+            ],
+            "responses": [
+                "Infolinia Luxmed 22 33 22 888 jest czynna poniedziałek - piątek 6:00-22:00, sobota - niedziela 7:00-21:00; wizyty domowe i porady medyczne 24 h.",
+                "Infolinia Luxmed 22 33 22 888 jest czynna poniedziałek - piątek 6:00-22:00, sobota - niedziela 7:00-21:00; wizyty domowe i porady medyczne 24 h."
+            ]
+        },
+        {
+            "tag": "Luxmed umawianie wizyt",
+            "patterns": [
+                "Jak umówić wizytę w Luxmedzie ?",
+                "W jaki sposób mogę umówić wizytę lekarską w Luxmedzie ?",
+                "Chcę umówić wizytę w Luxmed jaki to zrobić ?",
+                "Jaki jest link do portalu pacjenta w Luxmed ?",
+                "Infolinia do uamwiania wizyt w Luxmed ?",
+                "Potrzebuję zamówić lekarza w Luxmed ?"
+            ],
+            "responses": [
+                "Wizytę w Luxmed umówisz poprzez infolinię 22 33 22 888, czynna poniedziałek - piątek 6:00-22:00, sobota - niedziela 7:00-21:00 lub na portalu pacjenta https://www.luxmed.pl/strona-glowna/kontakt/rezerwuj-wizyte.html"
+            ]
+        },
+        {
+            "tag": "Obowiązek szkolenia BHP",
+            "patterns": [
+                "Czy muszę odbyć szkolenie BHP?",
+                "Czy muszę iść na szkolenie BHP?",
+                "Czy szkolenie BHP jest obowiązkowe?",
+                "Kiedy szkolenie BHP jest obowiązkowe?",
+                "Czy szkolenie z zakresu BHP jest obowiązkowe?",
+                "Czy szkolenie BHP jest wymagane?"
+            ],
+            "responses": [
+                "Okresowe szkolenia BHP są obowiązkowo powtarzane w czasie trwania zatrudnienia. Ich celem jest przypomnienie i ugruntowanie wiedzy z zakresu BHP oraz zapoznanie uczestników z nowymi rozwiązaniami techniczno-organizacyjnymi w tej materii. Częstotliwość okresowego szkolenia BHP jest uzależniona od rodzaju i warunków wykonywania pracy."
+            ]
+        },
+        {
+            "tag": "Okres wypowiedzenia",
+            "patterns": [
+                "Ile mam okresu wypowiedzenia?",
+                "Jaki mam okresu wypowiedzenia?",
+                "Ile czasu muszę być na wypowiedzeniu?",
+                "Jak długo będę na wypowiedzeniu?",
+                "Długość okresu wypowiedzenia",
+                "Ile trwa okres wypowiedzenia?",
+                "Jak długi mam okres wypowiedzenia?",
+                "pracuję w firmie 10 lat - jaki mam okres wypowiedzenia? "
+            ],
+            "responses": [
+                "Okres wypowiedzenia zależy od łącznego czasu zatrudnienia u pracodawcy, czyli liczymy łącznie wszystkie umowy z danej spółki nawet jeśli była przerwa w zatrudnieniu. Przy umowie na czas określony i nieokreślony jest to: * 2 tygodnie jeżeli pracownik był zatrudniony, krócej niż 6 miesięcy * 1 miesiąc jeżeli pracownik był zatrudniony, co najmniej 6 miesięcy * 3 miesiące jeżeli pracownik był zatrudniony co najmniej 3 lata"
+            ]
+        },
+        {
+            "tag": "Placówki Lux Med",
+            "patterns": [
+                "Gdzie sa placówki Lux Med ?",
+                "Wykaz placówek Luxmed ?",
+                "Gdzie jest najbliższa placówka Luxmed"
+            ],
+            "responses": [
+                "Placówkę Lux Med znajdziesz na stronie https://www.luxmed.pl/dla-pacjentow/centra-medyczne-grupy-lux-med.html"
+            ]
+        },
+        {
+            "tag": "Placówki współpracujące z Luxmed",
+            "patterns": [
+                "Wykaz placówek współpracujących z Luxmed?",
+                "Czy Luxmed współpracuje z moją placówką medyczną ?"
+            ],
+            "responses": [
+                "Placówki współpracujące z Luxmed znajdziesz na stronie https://www.luxmed.pl/dla-pacjentow/centra-medyczne-grupy-lux-med/placowki-wspolpracujace.html",
+                "Placówki współpracujące z Luxmed znajdziesz na stronie https://www.luxmed.pl/dla-pacjentow/centra-medyczne-grupy-lux-med/placowki-wspolpracujace.html"
+            ]
+        },
+        {
+            "tag": "Podnóżek pod nogi",
+            "patterns": [
+                "Czy należy mi się podnóżek pod nogi do pracy?",
+                "Skąd wziąć podnóżek pod nogi?",
+                "Od kogo dostanę podnóżek pod nogi?"
+            ],
+            "responses": [
+                "W celu uzyskania podnóżka pod nogi należy się zgłosić do służb BHP lub administracji biura w której pracujesz, oni udzielą Ci na ten temat stosownych informacji."
+            ]
+        },
+        {
+            "tag": "Rodzaje urlopów",
+            "patterns": [
+                "Jakie są dostępne urlopy dla pracownika ?",
+                "Jakie urlopy przysługują pracownikowi?",
+                "Rodzaje urlopów z których mogę skozrystać",
+                "Jakie mogę wziąć urlopy"
+            ],
+            "responses": [
+                "Pracownik może skorzystać z urlopu wypoczynkowego, okolicznościowego, na żądanie, bezpłatnego. Pracownik rodzic/opiekun może skorzystać z urlopu macierzyńskiego, rodzicielskiego, wychowawczego, a także z 2 dni opieki nad dzieckiem do lat 14."
+            ]
+        },
+        {
+            "tag": "Wyjście w czasie pracy",
+            "patterns": [
+                "Czy mogę wyjść w trakcie pracy?",
+                "Czy mogę wyjść w czasie pracy?",
+                "Chciałbym na chwilę wyjść podczas pracy",
+                "Chcę na chwilę wyjść w czasie pracy",
+                "Czy możliwe jest wychodzenie w czasie pracy?",
+                "Wyjście w czasie pracy"
+            ],
+            "responses": [
+                "Wszystkie wyjścia w trakcie pracy powinny zostać uzgodnione z przełożonym i powinna zostać wyrażona zgoda przełożonego na wyjście w trakcie pracy."
+            ]
+        },
+        {
+            "tag": "Zapytanie dźwiękowe",
+            "patterns": [
+                "moge Ci wyslać zapytanie dźwiękowe ? ",
+                "Czy mogąę z Toba rozmawiać przez mikrofon ?",
+                "Czy mogę mówić do Ciebie a nie pisać ?",
+                "Czy mogę z Tobą komunikować się słownie ?",
+                "Rozumiesz słowa bez konieczności pisania ?"
+            ],
+            "responses": [
+                "Muszę jeszcze nad tym popracować, ale mam to zaplanowane w przyszłości :)",
+                "Muszę jeszcze nad tym popracować, ale mam to zaplanowane w przyszłości :)"
+            ]
+        },
+        {
+            "tag": "Zgłoszenie wypadku w pracy",
+            "patterns": [
+                "Co zrobić jak miałem wypadek w pracy?",
+                "Komu zgłosić wypadek przy pracy?",
+                "Gdzie zgłosić wypadek w pracy?",
+                "Co zrobić w przypadku wypadku przy pracy?",
+                "Z kim skontaktować się w sytuacji wypadku przy pracy?",
+                "Do kogo mam się zwrócić jak miałem wypadek przy pracy?",
+                "Zdarzył się wypadek w pracy. Mam złamaną rękę. Chcę się ubiegać o odszkodowanie "
+            ],
+            "responses": [
+                "W razie wypadku przy pracy lub w drodze do pracy należy skontaktować się w pierwszej kolejności ze swoim przełożonym a następnie z działem BHP."
+            ]
+        },
+        {
+            "tag": "bliźniaki ojcowski",
+            "patterns": [
+                "Czy wymiar urlopu ojcowskiego w przypadku urodzenia się bliźniaków będzie wyższy?",
+                "Ile należy się ojcowskiego na bliźnięta?",
+                "urodziły mi się bliźniaki, czy mój urlop ojcowski będzie wyższy?",
+                "jestem ojcem bliźniaków, jaki przysługuje mi urlop ojcowski?"
+            ],
+            "responses": [
+                "Wymiar urlopu ojcowskiego wynosi 2 tygodnie, niezależnie od liczby urodzonych dzieci przy jednym porodzie, czyli w przypadku urodzenia się bliźniaków ojcu dziecka będzie przysługiwał okres 14 dniu kalendarzowych."
+            ]
+        },
+        {
+            "tag": "bug",
+            "patterns": [
+                "Huston mamy buga",
+                "widzę buga",
+                "znalazłem poważengo buga",
+                "coś nie działa",
+                "jest awaria na bocie",
+                "klient mówi, że nie działa",
+                "jest bug na prodzie"
+            ],
+            "responses": [
+                "zgłoś buga na Jirze i jak bedziesz miał szczęscie to dev team naprawi go w najblizszym sprincie "
+            ]
+        },
+        {
+            "tag": "błąd",
+            "patterns": [
+                "błąd",
+                "coś się popsuło",
+                "nie działasz",
+                "help help",
+                "wystąpił błąd",
+                "nie odpowiadasz"
+            ],
+            "responses": [
+                "Przepraszam, miałem krótką przerwę. Zadaj jeszcze raz swoje pytanie ;)"
+            ]
+        },
+        {
+            "tag": "chora rodzina",
+            "patterns": [
+                "Moja żona jest chora. Co teraz?",
+                "Żona zachorowała. Co mogę zrobić?",
+                "Moja mama jest chora. Co teraz?",
+                "Mama zachorowała. Co mogę zrobić?",
+                "Mój mąż jest chory. Co teraz?",
+                "Mąż zachorował. Co mogę zrobić?"
+            ],
+            "responses": [
+                "Zapytaj o zwolnienie lekarskie na członka rodziny, zapytaj o druk z-15b"
+            ]
+        },
+        {
+            "tag": "chore dziecko",
+            "patterns": [
+                "Mam chore dziecko. Co mam zrobić?",
+                "zwolnienie na chore dziecko",
+                "Zachorowało mi dziecko. Co teraz?",
+                "mam chore dziecko",
+                "Mój syn jest chory. Co teraz?",
+                "moje dziecko zachorowało",
+                "Chory syn",
+                "Chora córka",
+                "Chore dziecko",
+                "Moja córka jest chora. Co teraz?",
+                "mam taką sytuację, że chcę wziąć zwolnienie na opiekę nad moim synem i czy w związku z tym muszę dostarczyć zaświadczenie, że mój mąż nie korzysta z takiego zwolnienia?",
+                "co mam zrobić jak dziecko choruje",
+                "Co zrobić jak dziecko jest chore?"
+            ],
+            "responses": [
+                "Zapytaj o zwolnienie lekarskie na dziecko, zapytaj o druk z-15."
+            ]
+        },
+        {
+            "tag": "co czytasz",
+            "patterns": [
+                "Co teraz czytasz? ",
+                "Co czytasz?",
+                "Co lubisz czytać?"
+            ],
+            "responses": [
+                "Twoje pytania…"
+            ]
+        },
+        {
+            "tag": "co umie bot",
+            "patterns": [
+                "nie pomagasz mi",
+                "co umiesz robić",
+                "co potrafisz robić",
+                "o co mogę zapytać?",
+                "o co moge pytać",
+                "w czym potrafisz mi pomóc",
+                "o co mogę się Ciebie spytać"
+            ],
+            "responses": [
+                "Nie musisz tracić czasu na poszukiwanie brakujących informacji i przeglądanie firmowych dysków i dokumentów itp. Wystarczy, że zadasz mi pytanie, a ja – bum! – szybko podrzucę Ci odpowiedź. Zyskasz mnóstwo czasu!"
+            ]
+        },
+        {
+            "tag": "czy płatne nadgodziny",
+            "patterns": [
+                "Czy nasza firma płaci za nadgodziny?",
+                "Kasa za nadgodziny",
+                "Zapłata za nadgodziny",
+                "Czy dostanę pieniądze za nadgodziny?",
+                "Czy nadgodziny są płatne?",
+                "Płacenie za nadgodziny",
+                "Nadgodziny jak rozliczyc "
+            ],
+            "responses": [
+                "W pierwszej kolejności w naszej firmie praktyką jest oddawanie wolnego za pracę w nadgodzinach, jeżeli jednak takiej możliwości nie ma, za zgodą przełożonego oraz przełożonego wyższego szczebla, takie nadgodziny mogą zostać wypłacone pracownikowi."
+            ]
+        },
+        {
+            "tag": "częstotliwość refundacja okularów",
+            "patterns": [
+                "Co ile mogę wnioskować o zakup okularów?",
+                "Czy o zwrot za okulary mogę starać się w każdym momencie?",
+                "Jak często mogę wnioskować o zakup okularów?",
+                "Jak często można składać wniosek o zakup okularów?",
+                "Co ile ubiegać się mogę o refundację okularów",
+                "Kiedy znowu mogę ubiegać się o refundację okularów",
+                "Kiedy znowu dostanę zwrot za zakup okularów",
+                "Refundacja okularów, jak często",
+                "Częstotliwość refundacji okularów",
+                "Częstotliwość zwrotów za zakup okularów"
+            ],
+            "responses": [
+                "Uprawnieni pracownicy mogą ubiegać się o refundację kosztów zakupu okularów wyłącznie na podstawie orzeczenia lekarskiego wydanego w ramach badań profilaktycznych. Częstotliwość zakupu okularów wynika ze wskazań lekarskich opartych na badaniach okulistycznych w ramach profilaktycznej opieki zdrowotnej przeprowadzanych na podstawie skierowania wydanego przez pracodawcę."
+            ]
+        },
+        {
+            "tag": "data",
+            "patterns": [
+                "jaki dziś dzień?",
+                "Który dzisiaj mamy?",
+                "Jaki dzisiaj dzień tygodnia?"
+            ],
+            "responses": [
+                "Chyba musisz zajrzeć do kalendarza :)"
+            ]
+        },
+        {
+            "tag": "do kiedy rodzicielski",
+            "patterns": [
+                "Ile mam czasu na skorzystanie z urlopu rodzicielskiego?",
+                "Do kiedy mogę wykorzystać rodzicielski?",
+                "Jak jest udzielany urlop rodzicielski?",
+                "do kiedy mogę skorzystać urlopu rodzicielskiego?",
+                "Ile mam czasu żeby pójść na urlop rodzicielski?"
+            ],
+            "responses": [
+                "Urlop rodzicielski jest udzielany jednorazowo lub w częściach nie później niż do zakończenia roku kalendarzowego, w którym dziecko kończy 6 rok życia."
+            ]
+        },
+        {
+            "tag": "do kiedy urlop okolicznościowy",
+            "patterns": [
+                "W jakim terminie muszę wykorzystać urlop okolicznościowy?",
+                "Do kiedy muszę wykorzystać urlop okolicznościowy?",
+                "Kiedy mogę wykorzystać urlop okolicznościowy?",
+                "Czy muszę wykorzystać urlop okolicznościowy w danej okoliczności?",
+                "Jaki jest okres wykorzystania urlopu okolicznościowego w przypadku danego zdarzenia?",
+                "Mam ślub, w których dniach mogę wykorzystać urlop okolicznościowy?",
+                "Czy istnieją jakieś konkretne dni, w których należy wykorzystać urlop okolicznościowy?"
+            ],
+            "responses": [
+                "Urlop okolicznościowy nie musi być wykorzystany w dniu danej okoliczności, np. w dniu ślubu. Muszą to być jednak dni powiązane z danym wydarzeniem. W przypadku ślubu mogą to być dni potrzebne na przygotowania lub dni po ślubie potrzebne do załatwiania formalności w urzędach. Warto pamiętać, że dni urlopu okolicznościowego nie muszą być wykorzystywane razem, czyli jeden po drugim. Jednak muszą być powiązane z jedną konkretną okazją."
+            ]
+        },
+        {
+            "tag": "do kiedy wychowawczy",
+            "patterns": [
+                "Do kiedy mogę wykorzystać urlop wychowawczy?",
+                "Ile mam czasu na skorzystanie z wychowawczego?",
+                "Jak jest udzielany urlop wychowawczy?",
+                "do kiedy mogę skorzystać urlopu wychowawczego?",
+                "Ile mam czasu żeby pójść na urlop wychowawczy?"
+            ],
+            "responses": [
+                "Urlop udzielany jest na okres nie dłuższy niż do zakończenia roku kalendarzowego w którym dziecko kończy 6 rok życia."
+            ]
+        },
+        {
+            "tag": "do kiedy wypłata",
+            "patterns": [
+                "Do kiedy wypłacane jest wynagrodzenie?",
+                "kiedy będzie kasa?",
+                "Kiedy mogę spodziewać się wynagrodzenia?",
+                "Kiedy otrzymam wynagrodzenie?",
+                "Kiedy dostanę wypłatę? ",
+                "Do kiedy przychodzą pieniądze? ",
+                "Kiedy wypłata? ",
+                "kiedy przyjdzie moja wypłata?",
+                "Kiedy dostanę przelew?",
+                "Do kiedy wypłata?",
+                "Do kiedy jest wypłata?"
+            ],
+            "responses": [
+                "Wynagrodzenie wypłacane jest 10.dnia miesiąca. Jeśli 10-ty wypada w dzień wolny od pracy, to wypłata zostanie zrealizowana w pierwszy dzień pracujący, poprzedzający tę datę."
+            ]
+        },
+        {
+            "tag": "do kogo rodzicielski",
+            "patterns": [
+                "Do kogo wystąpić o urlop rodzicielski?",
+                "kogo powiadomić starając się o urlop rodzicielski?",
+                "Do kogo zgłosić urlop rodzicielski?",
+                "Do kogo złożyć wniosek o urlop rodzicielski?",
+                "Komu oddać podanie o rodzicielski?"
+            ],
+            "responses": [
+                "Wniosek o urlop rodzicielski składasz do bezpośredniego Przełożonego. Bezpośredni Przełożony po akceptacji przesyła wniosek do działu Administracji Personalnej. Do wniosku o urlop rodzicielski należy dołączyć pisemne oświadczenie pracownika o braku zamiaru korzystania z urlopu przez okres wskazany we wniosku przez drugiego z rodziców dziecka. Do wniosku należy dołączyć akt urodzenia dziecka lub jego kopię."
+            ]
+        },
+        {
+            "tag": "do kogo wychowawczy",
+            "patterns": [
+                "Do kogo wystąpić o urlop wychowawczy?",
+                "kogo powiadomić starając sie o urlop wychowawczy?",
+                "Do kogo zgłośić urlop wychowawczy?",
+                "Do kogo mam złożyć wniosek o urlop wychowawczy?",
+                "Komu oddać podanie o wychowawczy?"
+            ],
+            "responses": [
+                "Wniosek o urlop wychowawczy składasz do bezpośredniego Przełożonego. Bezpośredni Przełożony po akceptacji przesyła wniosek do działu Administracji Personalnej. Do wniosku należy dołączyć pisemne oświad. drugiego rodzica o braku zamiaru korzystania z urlopu wych. przez okres wskazany we wniosku. W przypadku gdy oboje rodzice jednocześnie korzystają z urlopu wych. należy dołączyć pisemne oświad. drugiego rodzica o okresie korzystania z urlopu wych."
+            ]
+        },
+        {
+            "tag": "dostarczyć oryginał zwolnienia",
+            "patterns": [
+                "Czy muszę dostarczyć oryginał zwolnienia lekarskiego?",
+                "Mam wystawione zwolnienie elektronicznie. Czy muszę coś dostarczyć?",
+                "Czy muszę przynieść oryginał zwolnienia lekarskiego?",
+                "Czy konieczny jest oryginał zwolnienia lekarskiego?"
+            ],
+            "responses": [
+                "W przypadku wystawienia przez lekarza zwolnienia lekarskiego w formie papierowej pracownik jest zobligowany do dostarczenia oryginału zwolnienia lekarskiego w celu wypłaty wynagrodzenia bądź zasiłku chorobowego. Do czasu kiedy pracodawca nie ma oryginału, Pracownik za ten czas ma w systemie nieobecność usprawiedliwioną niepłatną. Jeżeli zwolnienie lekarskie zostało wystawione elektronicznie takiego obowiązku nie ma."
+            ]
+        },
+        {
+            "tag": "dziecko szpital macierzyński",
+            "patterns": [
+                "Moje dziecko jest w szpitalu. Czy muszę korzystać z urlopu macierzyńskiego?",
+                "Mam dziecko w szpitalu. Mogę przerwać macierzyński?",
+                "Moje dziecko zostało w szpitalu. Czy wykorzystuję urlop macierzyński?",
+                "moje dziecko po urodzeniu nadal jest w szpitalu, czy potrącacie mi macierzyński",
+                "dziecko chore w szpitalu po porodzie urlop macierzyński"
+            ],
+            "responses": [
+                "W razie urodzenia dziecka wymagającego opieki szpitalnej pracownica, która wykorzystała po porodzie 8 tygodni urlopu macierzyńskiego, pozostałą część tego urlopu może wykorzystać w terminie późniejszym, po wyjściu dziecka ze szpitala."
+            ]
+        },
+        {
+            "tag": "długość urlop bezpłatny",
+            "patterns": [
+                "Na jak długo mogę wziąć urlop bezpłatny?",
+                "Na ile mogę iść na urlop bezpłatny?",
+                "Na jak maksymalnie długo mogę wziąć urlop bezpłatny?",
+                "Ile dni może trwać urlop bezpłatny?",
+                "Na ile dni mogę wziąć urlop bezpłatny?",
+                "Urlop bezpłatny, ile może trwać?",
+                "Urlop bezpłatny, na jak długo mogę wziąć?",
+                "Ile dni mogę przebywać na urlopie bezpłatnym?"
+            ],
+            "responses": [
+                "Przepisy kodeksu pracy nie określają maksymalnego czasu trwania urlopu bezpłatnego. Możemy przebywać na nim przez dwa tygodnie lub przez rok, jeśli pracodawca wyrazi na to zgodę. "
+            ]
+        },
+        {
+            "tag": "ekwiwalent urlopu",
+            "patterns": [
+                "Czy mogę zamienić niewykorzystany urlop na ekwiwalent?",
+                "Co z moim zaległym urlopem? Czy mogę dostać go w formie pieniężnej?",
+                "Czy mogę zamienić niewykorzystany urlop na coś innego?",
+                "Czy istnieje możliwość zamiany niewykorzystanego urlopu na ekwiwalent?",
+                "Chcę otrzymać ekwiwalent za niewykorzystany urlop",
+                "Chciałbym dostać wynagrodzenie za niewykorzystany urlop",
+                "Chciałbym dostać wynagrodzenie za dni urlopowe które mi zostały",
+                "Czy mogę otrzymać ekwiwalent za dni urlopowe, których nie wykorzystałem?",
+                "Czy mogę zamienić niewykorzystany urlop na odpowiednik wynagrodzenia?"
+            ],
+            "responses": [
+                "Ekwiwalent pieniężny za niewykorzystany urlop wypoczynkowy może zostać wypłacony pracownikowi tylko w przypadku rozwiązania umowy o pracę."
+            ]
+        },
+        {
+            "tag": "elastyczna praca",
+            "patterns": [
+                "Czy nasza firma ma elastyczne podejście do pracy?",
+                "Czy godziny pracy są elastyczne?",
+                "Czy czas pracy może być elastyczny?",
+                "Czy są zasady dotyczące pracy zdalnej?"
+            ],
+            "responses": [
+                "W naszej firmie zostały wdrożone rozwiązania mające służyć uelastycznieniu pracy, nie dotyczy to jednak wszystkich pracowników, jedynie tych u których tą elastyczność można zastosować. Rozwiązania dające elastyczność pracy: okazjonalna praca z domu – w niektórych sytuacjach, możemy pracować poza biurem, istnieje możliwość okazjonalnej pracy z domu (tzw. home office), są również elastyczne godziny rozpoczęcia pracy (od 7:30 do 10:00). "
+            ]
+        },
+        {
+            "tag": "emplocity",
+            "patterns": [
+                "Gdzie jest bot? ",
+                "Gdzie jesteś?",
+                "Gdzie mieszkasz? ",
+                "Skąd przybywasz?"
+            ],
+            "responses": [
+                "W Emplocity :)"
+            ]
+        },
+        {
+            "tag": "godzina",
+            "patterns": [
+                "Która godzina? ",
+                "Godzina?",
+                "Jaką mamy godzinę?",
+                "Jaka to pora dnia?"
+            ],
+            "responses": [
+                "Odpowiednia na przerwę! "
+            ]
+        },
+        {
+            "tag": "ile urlop okolicznościowy",
+            "patterns": [
+                "Ile należy się dni urlopu okolicznościowego?",
+                "Ile należy się urlopu okolicznościowego gdy biorę ślub?",
+                "Planuję ślub, ile będę mieć urlopu okolicznościowego?",
+                "Zmarła mi mama, ile będę mieć urlopu okolicznościowego?",
+                "Ile będę mieć urlopu okolicznościowego w przypadku śmierci mamy?",
+                "Liczba dni w urlopie okoliczonościowym",
+                "Urodziło mi się dziecko, czy przysługuje mi urlop okolicznościowy?",
+                "Ile mam dni urlopu w przypadku urodzenia dziecka?",
+                "Ile mam dni urlopu w przypadku śmierci kogoś z rodziny?",
+                "Na jakie okazje mogę wziąć urlop okolicznościowy?"
+            ],
+            "responses": [
+                "2 dni – w razie ślubu pracownika lub urodzenia się jego dziecka albo zgonu i pogrzebu małżonka pracownika lub jego dziecka, ojca, matki, ojczyma lub macochy; 1 dzień – w razie ślubu dziecka pracownika albo zgonu i pogrzebu jego siostry, brata, teściowej, teścia, babki, dziadka, a także innej osoby pozostającej na utrzymaniu pracownika lub pod jego bezpośrednią opieką."
+            ]
+        },
+        {
+            "tag": "jak skorzystać macierzyński",
+            "patterns": [
+                "Co mam zrobić, aby skorzystać z urlopu macierzyńskiego?",
+                "Do kogo zwrócić się o macierzyński?",
+                "Gdzie zgłosić urlopu macierzyński?",
+                "jak wziąć urlop macierzyński?",
+                "jak zgłosić urlop macierzyński?"
+            ],
+            "responses": [
+                "Pracodawca udziela urlopu macierzyńskiego bez wniosku pracownicy, która urodziła dziecko/dzieci, bowiem przysługuje on \"z urzędu\" na mocy art. 180 § 1 Kodeksu pracy (Dz. U. z 1998 r. nr 21, poz. 94 ze zm.). Pracownica nie ma więc obowiązku składania wniosku o podstawowy urlop macierzyński. Pracownica jest zobowiązana dostarczyć Pracodawcy jedynie akt urodzenia dziecka."
+            ]
+        },
+        {
+            "tag": "jak skorzystać rodzicielski",
+            "patterns": [
+                "Co mam zrobić, aby skorzystać z urlopu rodzicielskiego?",
+                "Do kogo zwrócić się o rodzicielski?"
+            ],
+            "responses": [
+                "Nie później niż 21 dni po porodzie pracownica może złożyć wspólny wniosek o udzielenie bezpośrednio po urlopie macierzyńskim urlopu rodzicielskiego w pełnym wymiarze. Za cały ten okres zostanie wypłacone 80% podstawy wymiaru zasiłku. Jeżeli wniosek będzie złożony w terminie późniejszym niż 21 dni przed rozpoczęciem urlopu, wtedy za urlop mac. i pierwsze 6 tygodni urlopu rodz. wypłacone będzie 100% podstawy wymiaru zasiłku, a za resztę urlopu rodz. 60% ww. Podstawy."
+            ]
+        },
+        {
+            "tag": "jak urlop okolicznościowy",
+            "patterns": [
+                "Jak wziąć urlop okolicznościowy?",
+                "Urlop okolicznościowy, jak wziąć?",
+                "Urlop okolicznościowy, na czym polega?",
+                "Urlop okolicznościowy, co to jest?",
+                "Co to jest urlop okolicznościowy?"
+            ],
+            "responses": [
+                "Urlop okolicznościowy jest zwolnieniem od pracy, za które pracownik zachowuje prawo do wynagrodzenia. Aby pracownik mógł skorzystać z urlopu okolicznościowego, musi wystąpić konkretna przyczyna (okoliczność). Na urlop okolicznościowy należy wystawić wniosek w samoobsłudze pracowniczej a następnie dostarczyć do wglądu dokument poświadczający daną okoliczność np. Akt urodzenia dziecka."
+            ]
+        },
+        {
+            "tag": "jakie badania",
+            "patterns": [
+                "Jakie badania muszę zrobić?",
+                "Jakie badania lekarskie zrobić",
+                "Które badania lekarskie muszę zrobić",
+                "Które badania są obowiązkowe",
+                "Jakie badania lekarskie są obowiązkowe? ",
+                "Jakie badania lekarskie należy zrobić?"
+            ],
+            "responses": [
+                "Obowiązkowymi badaniami dla pracownika są badania wstępne, okresowe i kontrolne. Badaniom wstępnym poddawani są nowo zatrudniani pracownicy, młodociani oraz pracownicy przenoszeni na inne stanowiska pracy, na których występują czynniki szkodliwe dla zdrowia lub warunki uciążliwe. Obowiązek kierowania kandydatów do pracy na wstępne badania lekarskie ma charakter bezwzględny. Oznacza to, że wykonane przez pracownika badania dla potrzeb innego zakładu pracy lub w innym celu nie mogą zastąpić badań uwzględniających konkretne stanowisko i warunki pracy panujące u aktualnego pracodawcy. Badania okresowe mają na celu sprawdzenie stanu zdrowia pracownika w trakcie zatrudnienia. Badania tego rodzaju przeprowadzane są z różną częstotliwością, w zależności od występowania czynników szkodliwych lub uciążliwych dla zdrowia pracowników. Najczęściej odbywają się one co 2-4 lata. Badania kontrolne są badaniami dodatkowymi. O potrzebie przeprowadzenia takich badań decyduje niezdolność pracownika trwająca dłużej niż 30 dni. Pracodawca ma obowiązek skierować na badania kontrolne każdego pracownika, który chorował dłużej niż miesiąc. Profilaktyczne badania lekarskie przeprowadzane są na podstawie skierowania pracodawcy. W przypadku skierowania na badania wstępne, powinno ono określić rodzaj stanowiska pracy, na którym mają być zatrudnieni. W skierowaniu należy także zawrzeć informację o zagrożeniach, czynnikach szkodliwych dla zdrowia lub innych uciążliwościach występujących na tym stanowisku pracy."
+            ]
+        },
+        {
+            "tag": "jakie dokumenty badania",
+            "patterns": [
+                "Jakie dokumenty muszę dostarczyć do pracodawcy po odbytych badaniach?",
+                "Dokumenty jeżeli miałem badania",
+                "Dokumenty potrzebne pracodawcy po odbytych badaniach",
+                "Jakie dokumenty dać po odbytych badaniach ",
+                "Odbyte badania dokumenty",
+                "Jakie dokumenty po odbytych badaniach? "
+            ],
+            "responses": [
+                "Po odbytych badaniach wstępnych, okresowych lub kontrolnych pracownik musi dostarczyć do pracodawcy zaświadczenie od lekarza medycyny pracy o zdolności do wykonywania pracy na danym stanowisku. Bez ważnych badań pracownik nie może zostać dopuszczony do pełnienia obowiązków pracowniczych."
+            ]
+        },
+        {
+            "tag": "kiedy badania",
+            "patterns": [
+                "Kiedy muszę zrobić badania lekarskie?",
+                "Badania lekarskie kiedy robić?",
+                "Kiedy należy zrobić kolejne badania lekarskie?",
+                "Kiedy robię badania?",
+                "W jakim terminie muszę zrobić badania lekarskie?",
+                "Kiedy badania lekarskie?"
+            ],
+            "responses": [
+                "O tym kiedy należy zrobić kolejne badania lekarskie decyduje lekarz. Na zaświadczeniu lekarskim, które otrzymasz od lekarza będzie data kolejnego badania okresowego."
+            ]
+        },
+        {
+            "tag": "komu urlop okolicznościowy",
+            "patterns": [
+                "Komu przysługuje urlop okolicznościowy?",
+                "Kto może dostać urlop okolicznościowy?",
+                "kto może ubiegać się o urlop okolicznościowy?",
+                "Kto może wypełnić wniosek o urlop okolicznościowy?",
+                "Urlop okolicznościowy, komu przysługuje?"
+            ],
+            "responses": [
+                "Urlop okolicznościowy udzielany jest pracownikowi ze względu na ważne wydarzenia rodzinne lub osobiste. Z okazji na różne sytuacje pracownikowi przysługują dni wolne: 2 dni – w razie ślubu pracownika lub urodzenia się jego dziecka albo zgonu i pogrzebu małżonka pracownika lub jego dziecka, ojca, matki, ojczyma lub macochy; 1 dzień – w razie ślubu dziecka pracownika albo zgonu i pogrzebu jego siostry, brata, teściowej, teścia, babki, dziadka, a także innej osoby pozostającej na utrzymaniu pracownika lub pod jego bezpośrednią opieką."
+            ]
+        },
+        {
+            "tag": "koniec_rozmowy",
+            "patterns": [
+                "Chcę przerwać",
+                "Chcę skończyć",
+                "Na dziś koniec",
+                "Narazie chcę skończyć",
+                "Nie mam już pytań",
+                "dzięki, już wszystko wiem!",
+                "Wszystko już wiem"
+            ],
+            "responses": [
+                "Ok, to kończymy :)"
+            ]
+        },
+        {
+            "tag": "koniec_rozmowy_krótki",
+            "patterns": [
+                "Koniec",
+                "Zakończ",
+                "Stop",
+                "Wyłącz się",
+                "End",
+                "Kończymy"
+            ],
+            "responses": [
+                "Kończę, do usłyszenia :)"
+            ]
+        },
+        {
+            "tag": "macierzyński przed porodem",
+            "patterns": [
+                "Czy mogę zacząć korzystać z urlop macierzyńskiego przed porodem?",
+                "Chciałabym rozpocząć macierzyński przed porodem. Mogę?",
+                "Czy mogę wziąć urlop macierzyński przed porodem?",
+                "chce wziąć część urlop macierzyńskiego przed porodem"
+            ],
+            "responses": [
+                "Nie więcej niż 6 tygodni urlopu macierzyńskiego może przypadać przed przewidywaną datą porodu."
+            ]
+        },
+        {
+            "tag": "mordor",
+            "patterns": [
+                "Czy Domaniewska stoi? ",
+                "I jak, Domaniewska stoi? ",
+                "jak na Mordorze?",
+                "Jak tam korki na Domaniewskiej?",
+                "Jak tam korki na Mordorze?"
+            ],
+            "responses": [
+                "DOMANIEWSKA ZAWSZE STOI"
+            ]
+        },
+        {
+            "tag": "nadgodziny obowiązkowe",
+            "patterns": [
+                "Zlecono mi dodatkowe godziny w pracy",
+                "Kierownik poprosił mnie żebym popracował dodatkowe godziny w tym tygodniu. "
+            ],
+            "responses": [
+                "Kodeks pracy dopuszcza dwie sytuacje, w których pracodawca może zlecić pracownikowi nadgodziny. Pierwszą jest konieczność prowadzenia akcji ratowniczej w celu ochrony życia lub zdrowia ludzkiego, ochrony mienia lub środowiska albo usunięcia awarii. W drugim przypadku, gdy zaistnieją szczególne potrzeby pracodawcy, które definiujemy jako specjalne, niecodzienne, odróżniające się od zwykłych potrzeb związanych z prowadzoną przez pracodawcę działalnością."
+            ]
+        },
+        {
+            "tag": "pierwsza praca urlop",
+            "patterns": [
+                "Po raz pierwszy podejmuję pracę ile dni urlopu wypoczynkowego mi przysługuje?",
+                "To moja pierwsza praca. Ile mam urlopu?",
+                "Jest to moja pierwsza praca, ile dni urlopu wypoczynkowego mi przysługuje?",
+                "Jest to moja pierwsza praca, ile mam dni urlopu wypoczynkowego?",
+                "Ile mam dni urlopu w przypadku pierwszej pracy?",
+                "Jest to moje pierwsze zatrudnienie. Ile będę mieć dni urlopu?",
+                "Ile będę mieć wolnego skoro jest to moja pierwsza praca",
+                "Ile będę mieć wolnego gdy jest po raz pierwszy zatrudniona",
+                "Po raz pierwszy jestem zatrudniony. Ile należy mi się dni urlopu?"
+            ],
+            "responses": [
+                "Osoba, która po raz pierwszy podjęła pracę w danym roku kalendarzowym, prawo do urlopu wypoczynkowego uzyskuje z upływem każdego miesiąca pracy. Należy jej się wtedy 1/12 rocznego urlopu. Z każdym kolejnym miesiącem tych dni wolnych jest więcej. Pracownik nabywa prawo do urlopu cząstkowego z dołu, za każdy miesiąc."
+            ]
+        },
+        {
+            "tag": "planowanie urlop",
+            "patterns": [
+                "Dlaczego muszę planować cały urlop na początku roku?",
+                "Skąd wynika konieczność planowania urlopu na cały rok?",
+                "Nie wiem kiedy będę brał urlop. Dlaczego muszę go planować?",
+                "Czy konieczne jest planowanie urlopu na początku roku?",
+                "Dlaczego planowanie urlopu ma się odbywać na początku roku?",
+                "Dlaczego trzeba planować urlopu z początkiem roku?",
+                "Dlaczego mam ustalać urlop na początku roku a nie później?",
+                "Ustalanie urlopu, dlaczego mam to robić na początku roku?"
+            ],
+            "responses": [
+                "Planowanie urlopu wynika z zapisów Regulaminu Pracy. Planem urlopów nie są objęte dni urlopu na żądanie art. 167 2 KP."
+            ]
+        },
+        {
+            "tag": "podziękowanie",
+            "patterns": [
+                "Dziękuję",
+                "Dzięki",
+                "dzięki za pomoc",
+                "Dzięki za rozmowę",
+                "Dziękuję za pomoc",
+                "Thnx",
+                "Thx"
+            ],
+            "responses": [
+                "Ależ nie ma za co 😎"
+            ]
+        },
+        {
+            "tag": "pogoda",
+            "patterns": [
+                "Jaką mamy pogodę?",
+                "Jaka jest dzisiaj pogoda?",
+                "Jaka dziś jest pogoda?",
+                "Pogoda na dziś",
+                "Pogoda"
+            ],
+            "responses": [
+                "Dla Ciebie? Zawsze słoneczna!"
+            ]
+        },
+        {
+            "tag": "pol etatu urlop",
+            "patterns": [
+                "Pracuję na pół etatu ile urlopu mi przysługuje?",
+                "Jestem zatrudniony w niepełnym wymiarze? Jak liczyć urlop?",
+                "Ile mam urlopu jeżeli pracuję na pół etatu?",
+                "Pracuję w niepełnym wymiarze godzin, ile mam urlopu?",
+                "ile mam urlopu jeżeli pracuję w niepełnym wymiarze godzin?",
+                "Jestem zatrudniona w niepełnym wymiarze godzin, ile mam dni urlopu?",
+                "Jestem zatrudniona na pół etatu, ile mam dni urlopu?",
+                "Chciałabym się dowiedzieć ile mam dni urlopu skoro pracuję na pół etatu?"
+            ],
+            "responses": [
+                "Zgodnie z art. 154 § 2 Kodeksu pracy wymiar urlopu dla pracownika zatrudnionego w niepełnym wymiarze czasu pracy ustala się proporcjonalnie do wymiaru czasu pracy, biorąc za podstawę wymiar urlopu (20 lub 26 dni), a niepełny dzień urlopu zaokrągla się w górę do pełnego dnia. ½ z 20 lub 26 dni = 10 lub 13 dni w roku kalendarzowym. 10/13 dni x 8 godzin = 80/104 godziny w ciągu roku."
+            ]
+        },
+        {
+            "tag": "pozdrowienia",
+            "patterns": [
+                "Pozdro",
+                "Pozdrawiam",
+                "Pzdr",
+                "Kłaniam się",
+                "Przesyłam pozdrowienia"
+            ],
+            "responses": [
+                "Pozdrawiam"
+            ]
+        },
+        {
+            "tag": "pożegnanie",
+            "patterns": [
+                "Żegnam",
+                "Bye",
+                "Do widzenia",
+                "Dobranoc",
+                "Narazie",
+                "pa",
+                "To pa",
+                "Trzymaj się"
+            ],
+            "responses": [
+                "Trzymaj się :)"
+            ]
+        },
+        {
+            "tag": "praca na rodzicielskim",
+            "patterns": [
+                "Czy mogę łączyć pracę z urlopem rodzicielskim?",
+                "Czy mogę pracować na rodzicielskim?",
+                "Czy można częściowo pracować podczas urlopu rodzicielskiego?",
+                "Czy mogę dorabiać podczas urlopu rodzicielskiego?",
+                "Czy mogę trochę pracować podczas urlopu rodzicielskiego?"
+            ],
+            "responses": [
+                "Pracownik może łączyć korzystanie z urlopu rodzicielskiego z wykonywaniem pracy u pracodawcy udzielającego tego urlopu w wymiarze nie wyższym niż połowa pełnego wymiaru czasu pracy. W takim przypadku urlopu rodzicielskiego udziela się na pozostałą część wymiaru czasu pracy. Pracodawca jest zobowiązany uwzględnić wniosek pracownika, chyba, że nie jest to możliwe ze względu na organizację pracy."
+            ]
+        },
+        {
+            "tag": "praca na wychowawczym",
+            "patterns": [
+                "Czy mogę pracować podczas urlopu wychowawczego?",
+                "Czy mogę iść do pracy podczas wychowawczego?",
+                "Czy można częściowo pracować podczas urlopu wychowawczego?",
+                "Czy mogę dorabiać podczas urlopu wychowawczego?",
+                "Czy mogę trochę pracować podczas urlopu wychowawczego?"
+            ],
+            "responses": [
+                "Podczas urlopu wychowawczego pracownik ma prawo podjąć pracę zarobkową u dotychczasowego lub innego pracodawcy albo inną działalność, jeżeli nie wyłącza to sprawowania osobistej opieki nad dzieckiem."
+            ]
+        },
+        {
+            "tag": "pracodawca odwołać urlop",
+            "patterns": [
+                "Czy przełożony może odwołać mnie z urlopu? ",
+                "Mam zaakceptowany urlop. Czy przełożony może wezwać mnie do pracy?",
+                "Czy przełożony może przerwać mi urlop? ",
+                "Przełożony przerwał mi urlop, czy miał prawo?",
+                "Przełożony skrócił mój urlop, czy miał prawo?",
+                "Czy możliwe jest odwołanie pracownika z urlopu?",
+                "Czy możliwe jest odwołanie pracownika podczas jego urlopu?",
+                "Czy ktoś może przerwać mój urlop wypoczynkowy?"
+            ],
+            "responses": [
+                "Odwołanie pracownika z urlopu jest dopuszczalne tylko wówczas, gdy jego obecność w zakładzie pracy wymagają okoliczności nieprzewidziane w chwili rozpoczynania urlopu. Tak więc z uprawnienia do odwołania pracownika z urlopu pracodawca może skorzystać tylko jeśli: 1. nastąpiły okoliczności, których nie można było przewidzieć w chwili rozpoczęcia urlopu wypoczynkowego, bądź pracodawca nie mógł przewidzieć konieczności obecności pracownika oraz 2. powrót pracownika jest niezbędny dla zapewnienia prawidłowego toku pracy z uwagi na posiadane przez niego kwalifikacje. Pracodawca jest obowiązany pokryć koszty poniesione przez pracownika w bezpośrednim związku z odwołaniem go z urlopu."
+            ]
+        },
+        {
+            "tag": "prawda",
+            "patterns": [
+                "Czy jesteś prawdziwy? ",
+                "Czy ty żyjesz",
+                "Czy ty jesteś naprawdę",
+                "Czy naprawdę istniejesz?"
+            ],
+            "responses": [
+                "Spróbuj uświadomić sobie prawdę: łyżka nie istnieje. "
+            ]
+        },
+        {
+            "tag": "przysługuje urlop macierzyński",
+            "patterns": [
+                "Ile przysługuje mi urlopu macierzyńskiego?",
+                "ile mam urlopu macierzyńskiego ",
+                "Ile mam urlopu macierzyńskiego?",
+                "Ile należy się urlopu macierzyńskiego?",
+                "Ile można dostać macierzyńskiego?"
+            ],
+            "responses": [
+                "Pracownica-matka po urodzeniu dziecka ma prawo do urlopu macierzyńskiego w wymiarze: - 20 tygodni w przypadku urodzenia 1 dziecka, - 31 tygodni w przypadku urodzenia 2 dzieci, - 33 tygodni w przypadku urodzenia 3 dzieci,- 35 tygodni w przypadku urodzenia 4 dzieci, - 37 tygodni w przypadku urodzenia 5 i więcej dzieci"
+            ]
+        },
+        {
+            "tag": "przysługuje urlop ojcowski",
+            "patterns": [
+                "Czy należy mi się urlop ojcowski?",
+                "Czy należy mi się tacierzyński?",
+                "urlop ojcowski?",
+                "Komu przysługuje urlop ojcowski?"
+            ],
+            "responses": [
+                "Pracownik-ojciec wychowujący dziecko ma prawo do urlopu ojcowskiego w wymiarze 2 tygodni(14 dni kalendarzowych), nie dłużej jednak niż do ukończenia przez dziecko 24 miesiąca życia. Urlop można podzielić na 2 części, każda z części nie może być krótsza niż 7 dni."
+            ]
+        },
+        {
+            "tag": "przywitanie",
+            "patterns": [
+                "Hej",
+                "Cześć",
+                "Cześc",
+                "Czesć",
+                "Dobry wieczór",
+                "Dzień dobry",
+                "Witam",
+                "Witaj"
+            ],
+            "responses": [
+                "Cześć!"
+            ]
+        },
+        {
+            "tag": "przywitanie_krótkie",
+            "patterns": [
+                "Elo",
+                "Halo",
+                "Hejka",
+                "Hey",
+                "Hi",
+                "Siema",
+                "Yo",
+                "Joł",
+                "Siemanko"
+            ],
+            "responses": [
+                "Hej!"
+            ]
+        },
+        {
+            "tag": "refundacja okularów",
+            "patterns": [
+                "Kto może się ubiegać o refundację okularów?",
+                "Czy refundacja okularów jest dla każdego Pracownika?",
+                "Czy mogę liczyć na zwrot za okulary?",
+                "Czy przysługuje mi zwrot za okulary?",
+                "Interesuje mnie refundacja okularów, czy mogę się o nią ubiegać?",
+                "Czy dostanę zwrot za zakup okularów?",
+                "Kto dostanie zwrot za zakup okularów?",
+                "Czy mogę dostać refundację kosztu zakupu okularów?",
+                "Czy mogę dostać zwrot za zakup okularów?",
+                "Czy przysługuje mi zwrot kosztów zakupu soczewek?",
+                "Czy dostanę dofinansowanie na zakup okularów?",
+                "Kiedy pracownik może dostać zwrot za zakup okularów korekcyjnych?",
+                "Czy należy się zwrot kosztów za zakup okularów?"
+            ],
+            "responses": [
+                "Każdy zatrudniony przez pracodawcę pracownik, w tym praktykant i stażysta, który użytkuje monitor ekranowy, przez co najmniej 4 godziny dziennie. Zgodnie z zaleceniem lekarza – w wyniku badań okulistycznych przeprowadzonych w ramach profilaktycznej opieki zdrowotnej - wymaga stosowania okularów korygujących wzrok podczas pracy przy obsłudze monitora. Więcej informacji znajdziesz na HeiPorcie – Serwis Pracowniczy – HR dla Pracownika – Inne procedury i polityki – Procedura refundacji kosztów okularów."
+            ]
+        },
+        {
+            "tag": "refundacja szkła kontaktowe",
+            "patterns": [
+                "Czy mogę również ubiegać się o zwrot za szkła kontaktowe?",
+                "Noszę szkła kontaktowe. Czy mogę ubiegać się o dofinansowanie?",
+                "Czy zwrot za szkła kontaktowe jest dostępny?",
+                "Czy zwrot za szkła kontaktowe jest możliwy?",
+                "Czy możliwy jest zwrot za szkła kontaktowe?"
+            ],
+            "responses": [
+                "Tak. Jeżeli w wyniku badań przeprowadzonych, w ramach profilaktycznej opieki zdrowotnej lekarz okulista zaleci stosowanie, przy obsłudze monitora, zamiast okularów – soczewki kontaktowe korygujące wzrok, pracodawca refunduje koszt zakupu przedmiotowych soczewek."
+            ]
+        },
+        {
+            "tag": "rodzicielski wspólnie",
+            "patterns": [
+                "Czy mogę korzystać z urlop rodzicielskiego wspólnie z małżonkiem?",
+                "Czy możemy korzystać z rodzicielskiego razem z mężem?",
+                "Czy mogę korzystać z urlop rodzicielskiego wspólnie z żoną?",
+                "Czy mogę korzystać z urlop rodzicielskiego wspólnie z mężem?",
+                "Czy mogę korzystać z urlop rodzicielskiego jednocześnie z małżonką z małżonkiem?"
+            ],
+            "responses": [
+                "Z urlopu rodzicielskiego mogą jednocześnie korzystać oboje rodzice dziecka. W takim przypadku łączny wymiar urlopu rodzicielskiego nie może przekraczać wymiaru 32 tygodni w przypadku 1 dziecka lub 34 tygodni dla 2 i więcej dzieci. "
+            ]
+        },
+        {
+            "tag": "rozumienie pytań",
+            "patterns": [
+                "Jakim cudem rozumiesz, co piszę?",
+                "Skąd wiesz, co mam na myśli?",
+                "Skąd wiesz, o co mi chodzi?"
+            ],
+            "responses": [
+                "Korzystam z NLP – przetwarzania języka naturalnego. Jestem trochę robotem, trochę językoznawcą i codziennie uczę się rozumieć Cię jeszcze lepiej!"
+            ]
+        },
+        {
+            "tag": "rozwiązać umowę",
+            "patterns": [
+                "Chcę rozwiązać umowę o pracę, do kogo mam się zgłosić?",
+                "Do kogo mam zaadresować rozwiązanie umowy o pracę?",
+                "Do kogo zgłosić rozwiązanie umowy",
+                "Rozwiązanie umowy z kim rozmawiać?",
+                "Wypowiedzenie umowy u kogo załatwić?",
+                "Wypowiedzenie umowy z kim rozmawiać?",
+                "Komu przekazać wypowiedzenie umowy?"
+            ],
+            "responses": [
+                "Wypowiedzenie umowy o pracę należy przekazać bezpośredniemu przełożonemu."
+            ]
+        },
+        {
+            "tag": "standup",
+            "patterns": [
+                "o której jest standup",
+                "kiedy standup",
+                "czy dzisiaj jest standup",
+                "czy muszę być na standup"
+            ],
+            "responses": [
+                "Standup jest w każdy dzień roboczy o godzinie 10, obecność obowiązkowa"
+            ]
+        },
+        {
+            "tag": "uczucia",
+            "patterns": [
+                "Kocham Cię",
+                "lubie Cię",
+                "podobasz mi się",
+                "I love you",
+                "jesteś sexi botem",
+                "dobrze się z Tobą rozmawia",
+                "Jesteś bardzo inteligentny"
+            ],
+            "responses": [
+                "Czy Twój przełożony wie, że flirtujesz z programami komputerowymi? "
+            ]
+        },
+        {
+            "tag": "uprawnienia rodzic dziecka",
+            "patterns": [
+                "Jakie mam uprawnienia będąc rodzicem dziecka?",
+                "Do czego mnie uprawnia bycie rodzicem?",
+                "Jakie mam prawa gdy jestem rodzicem?",
+                "Moje prawa jako rodzica",
+                "Jestem rodzicem jakie mam uprawnienia?",
+                "Uprawnienia rodzica dziecka "
+            ],
+            "responses": [
+                "Rodzice dziecka do lat 4 mają możliwość złożenia oświadczenia o korzystaniu/ niekorzystaniu z uprawnień takich jak praca w nadgodzinach, w nocy oraz wyjazdy w delegację. Odpowiednie oświadczenie należy złożyć w samoobsłudze pracowniczej"
+            ]
+        },
+        {
+            "tag": "uprawnienia urodziny dziecka",
+            "patterns": [
+                "Jakie mam uprawnienia w związku z urodzeniem mi się dziecka?",
+                "Do czego mam prawo, jeżeli urodziłam dziecko?",
+                "Jakie mam uprawnienia po porodzie?",
+                "Jakie mam uprawnienia, jeżeli urodziłam dziecko?",
+                "Co mi się należy, jeżeli urodziłam dziecko?",
+                "Urodziłam dziecko, jakie mam uprawnienia?",
+                "Urodziłam dziecko. Co dalej?"
+            ],
+            "responses": [
+                "W przypadku mamy dziecka jest to urlop macierzyński i rodzicielski, który obecnie wynosi odpowiednio 20 i 32 tygodnie na urodzenie jednego dziecka. Tata dziecka natomiast może skorzystać z 2 dni urlopu okolicznościowego oraz urlopu ojcowskiego, którego wymiar to 14 dni kalendarzowe."
+            ]
+        },
+        {
+            "tag": "uprawnienia w ciąży",
+            "patterns": [
+                "Jakie ma uprawnienia kobieta w ciąży?",
+                "Jestem w ciąży, czy mam z tego tytułu jakieś przywileje?",
+                "Uprawnienia w ciąży",
+                "Prawa kobiety w ciąży ",
+                "Jakie prawa mi przysługują jeżeli jestem w ciąży?",
+                "Do czego mam prawo, jeżeli jestem w ciąży? ",
+                "Co mi się należy, jeżeli jestem w ciąży?"
+            ],
+            "responses": [
+                "Od momentu przestawienia przez pracownicę zaświadczenia lekarskiego stwierdzającego stan ciąży, może ona korzystać z uprawnień takich jak: zakaz zlecania godzin nadliczbowych i pracy w porze nocnej. Dodatkowo nie można wypowiedzieć ani rozwiązać umowy o pracę w okresie ciąży pracownicy, z wykluczeniem zwolnienia dyscyplinarnego . Z kolei umowa o pracę zawarta na czas określony lub na okres próbny przekraczający jeden miesiąc, która uległaby rozwiązaniu po upływie trzeciego miesiąca ciąży, ulega przedłużeniu do dnia porodu."
+            ]
+        },
+        {
+            "tag": "urlop",
+            "patterns": [
+                "ile mam urlopu",
+                "jak zgłaszać urlop",
+                "kiedy moge iść na urlop",
+                "chciałbym wziąć urlop wypoczynkowy",
+                "jak wziąć urlop",
+                "komu zgłosić, że idę na urlop",
+                "chcę iść na urlop"
+            ],
+            "responses": [
+                "Urlop - każdemu przysługuje 20 lub 26 dni rocznie -\nna urlop idziemy po otrzymaniu pisemnego zaakceptowanego wniosku \nod przełozonego. \nTermin urlopu najlepiej skonsultować (przed napisaniem wniosku) z \nzespołem, w którym współpracujemy."
+            ]
+        },
+        {
+            "tag": "urlop bezpłatny",
+            "patterns": [
+                "Kiedy mogę wziąć urlop bezpłatny?",
+                "W jakim przypadku mogę iść na bezpłatny?",
+                "Komu przysługuje urlop bezpłatny?",
+                "Kto może ubiegać się o urlop bezpłatny?",
+                "Czy mogę się starać o urlop bezpłatny?",
+                "Urlop bezpłatny, czy mogę się ubiegać?",
+                "W jakich sytuacjach dostanę urlop bezpłatny?",
+                "Czy potrzebne jest uzasadnienie przy urlopie bezpłatnym?",
+                "Czy muszę uzasadnieniać wzięcie urlopu bezpłatnego?"
+            ],
+            "responses": [
+                "O urlop może ubiegać się osoba zatrudniona na podstawie umowy o pracę, która nabyła uprawnienia urlopowe. Wniosek składamy w formie pisemnej. Nie musimy podawać uzasadnienia. O urlop bezpłatny możemy starać się w sytuacjach awaryjnych, losowych w przypadku kiedy wykorzystaliśmy już cały urlop wypoczynkowy. Obowiązkowo pracodawca powinien udzielić urlopu bezpłatnego, gdy przepisy szczególne tak stanowią."
+            ]
+        },
+        {
+            "tag": "urlop bezpłatny inny pracodawca",
+            "patterns": [
+                "Czy w trakcie urlopu możemy pracować dla innego pracodawcy?",
+                "Czy na urlopie bezpłatnym mogę dorobić?",
+                "Czy w trakcie urlopu bezpłatnego możemy pracować dla innego pracodawcy?",
+                "Czy będąc na urlopie bezpłatnym możemy pracować w innej firmie?",
+                "Czy mogę pracować dla innego pracodawcy gdy przebywam na urlopie bezpłatnym?",
+                "Czy mogę znaleźć inne zatrudnienie gdy przebywam na urlopie bezpłatnym?",
+                "Czy mogę podjąć zatrudnienie gdy przebywam na urlopie bezpłatnym?",
+                "Jak wygląda sytuacja pracy w innej firmie gdy przebywam na urlopie bezpłatnym?",
+                "Czy mogę wziąć urlop bezpłatny żeby pracować w innym miejscu?"
+            ],
+            "responses": [
+                "Pracodawca może udzielić nam urlopu bezpłatnego w celu wykonywania pracy u innego zatrudniającego. Po powrocie do dotychczasowego miejsca zatrudnienia, okres wykonywania obowiązków na rzecz innego pracodawcy będzie wliczał się do stażu pracy."
+            ]
+        },
+        {
+            "tag": "urlop bezpłatny odmowa",
+            "patterns": [
+                "Czy przełożony może odmówić mi urlopu bezpłatnego?",
+                "Czy przełożony może nie wyrazić zgody na mój urlop bezpłatny?",
+                "Czy mogę nie otrzymać zgody na urlop bezpłatny?",
+                "Czy w przypadku urlopu bezpłatnego mogę nie otrzymać zgody?",
+                "Czy mogę nie dostać urlopu bezpłatnego?",
+                "Czy istnieje możliwość odmowy wniosku o urlop bezpłatny?",
+                "Urlop bezpłatny, czy pracodawca może mi odmówić?"
+            ],
+            "responses": [
+                "Pracodawca nie ma obowiązku przystać na naszą prośbę. Nie musi także argumentować decyzji odmownej. Może zaproponować nam krótszy czas trwania urlopu niż ten, który wskazaliśmy we wniosku."
+            ]
+        },
+        {
+            "tag": "urlop bezpłatny odwołanie",
+            "patterns": [
+                "Czy pracodawca ma prawo odwołać nas z urlopu bezpłatnego?",
+                "Czy pracodawca może skrócić mój urlop bezpłatny?",
+                "Czy mój urlop bezpłatny może zostać skrócony?",
+                "Czy będąc na urlopie bezpłatnym pracodawca może mnie z niego odmówić?",
+                "Czy w trakcie urlopu bezpłatnego kierownik może mnie odwołać?",
+                "Czy w trakcie urlopu bezpłatnego pracowaca może zlecić mi powrót do pracy?",
+                "Urlop bezpłatny, czy pracodawca może go skrócić?"
+            ],
+            "responses": [
+                "Możliwość odwołania pracownika z urlopu bezpłatnego istnieje tylko wtedy, gdy trwa on dłużej niż 3 miesiące. Poza tym, taki wariant należy ustalić przy udzielaniu urlopu. W przeciwnym razie wcześniejszy powrót może nastąpić tylko za zgodą zatrudnionego. "
+            ]
+        },
+        {
+            "tag": "urlop bezpłatny ubezpieczenie",
+            "patterns": [
+                "Czy na urlopie bezpłatnym przysługuje mi jakiekolwiek ubezpieczenie?",
+                "Jakie świadczenia mam na urlopie bezpłatnym?",
+                "Czy na urlopie bezpłatnym przysługuje mi ubezpieczenie?",
+                "Czy mam ubezpieczenie będąc na urlopie bezpłatnym?",
+                "Czy jestem nadal ubezpieczony gdy wziąłem urlop bezpłatny?",
+                "Czy w trakcie urlopu bezpłatnego jestem nadal ubezpieczony?",
+                "Czy w trakcie urlopu bezpłatnego podlegam ubezpieczeniu?"
+            ],
+            "responses": [
+                "Urlop bezpłatny wyłącza nas z obowiązku podlegania ubezpieczeniu społecznemu i zdrowotnemu. Zgodnie z ustawą o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych pracodawca nie musi opłacać składek, a my – po upływie 30 dni od rozpoczęcia urlopu – tracimy prawo do świadczeń."
+            ]
+        },
+        {
+            "tag": "urlop na zadanie",
+            "patterns": [
+                "Czy urlop na żądanie to dodatkowy urlop?",
+                "Kiedy mogę zgłosić urlop na żądanie?",
+                "W jakim przypadku mogę zgłosić urlop na żądanie?",
+                "Czy urlop na żądanie to urlop wypoczynkowy?",
+                "Czy dodatkowym urlopem jest urlop na żadanie?",
+                "Urlop na żadanie to urlop nadprogramowy?",
+                "Urlop na żadanie jest uzupełniający?"
+            ],
+            "responses": [
+                "Urlop na żądanie -\nw ciągu roku przysługują 4 dni urlopu, które wliczają się w \nprzysługujący wymiar dni urlopowych, pracodawca ma obowiązek udzielenia \ntakiego urlopu pod warunkiem, że pracownik skutecznie powiadomi o \nzamiarze wykorzystania urlopu nie później niż w momencie rozpoczęcia \ndnia roboczego- urlop na żądanie \ndotyczy spraw nagłych i losowych, niemożliwych do przewidzenia (zatem \nani kac, ani zaplanowane badanie lekarskie nie jest takim zdarzeniem)- na urlop na żądanie idziemy na podstawie SMS’owego zgłoszenia do K lub A- dodatkowo informujemy resztę zespołu na slacku lub w inny sposób o nieobecności\nO urlopie na żądanie informujcie mnie mailowo :) W tytule koniecznie wpisujcie NŻ ",
+                "Urlop na żądanie -w ciągu roku przysługują 4 dni urlopu, które wliczają się w przysługujący wymiar dni urlopowych, pracodawca ma obowiązek udzielenia takiego urlopu pod warunkiem, że pracownik skutecznie powiadomi o zamiarze wykorzystania urlopu nie później niż w momencie rozpoczęcia dnia roboczego- urlop na żądanie dotyczy spraw nagłych i losowych, niemożliwych do przewidzenia (zatem \nani kac, ani zaplanowane badanie lekarskie nie jest takim zdarzeniem)- na urlop na żądanie idziemy na podstawie SMS’owego zgłoszenia do K lub A- dodatkowo informujemy resztę zespołu na slacku lub w inny sposób o nieobecności. O urlopie na żądanie informujcie mnie mailowo :) W tytule koniecznie wpisujcie NŻ "
+            ]
+        },
+        {
+            "tag": "urlop okolicznościowy odmowa",
+            "patterns": [
+                "Czy przełożony może odmówić urlopu okolicznościowego?",
+                "Czy przełożony może odmówić mi urlop z okazji ślubu?",
+                "Czy pracodawca może mi odmówić urlopu z powodu śmierci rodzica?",
+                "Mam ślub, czy mogę nie dostać urlopu?",
+                "Mam pogrzeb rodzica, czy mogę nie dostać urlopu?",
+                "Czy są sytuacje, w których kierownik może nie wyrazić zgody na urlop okolicznościowy?",
+                "W jakich sytuacjach nie dostanę urlopu okolicznościowego?",
+                "Czy zawsze dostanę urlop okolicznościowy?"
+            ],
+            "responses": [
+                "Pracodawca nie może odmówić udzielenia takiego urlopu."
+            ]
+        },
+        {
+            "tag": "urlop rodzicielski",
+            "patterns": [
+                "Ile przysługuje mi urlopu rodzicielskiego?",
+                "Ile należy mi się rodzicielskiego?",
+                "Ile wynosi urlopu rodzicielski?",
+                "ile można wziąść urlopu rodzicielskiego?",
+                "Ile mi zostało urlopu rodzicielskiego?",
+                "ile należy się mi urlopu rodzicielskiego?"
+            ],
+            "responses": [
+                "Pracownica-matka po urodzeniu dziecka ma prawo do urlopu rodzicielskiego w wymiarze 32 tygodni dla 1 dziecka i 34 tygodni dla 2 i więcej dzieci."
+            ]
+        },
+        {
+            "tag": "w czym pomoc",
+            "patterns": [
+                "Do czego mi się przydasz?",
+                "W czym mi pomożesz?",
+                "Jak możesz mi pomóc?"
+            ],
+            "responses": [
+                "Nie musisz tracić czasu na poszukiwanie brakujących informacji i przeglądanie firmowych dysków i dokumentów itp. Wystarczy, że zadasz mi pytanie, a ja – bum! – szybko podrzucę Ci odpowiedź. Zyskasz mnóstwo czasu!"
+            ]
+        },
+        {
+            "tag": "wniosek ekwiwalent urlop",
+            "patterns": [
+                "Co mam zrobić aby otrzymać pieniądze za niewykorzystany urlop po odejściu z pracy?",
+                "Czy trzeba wnioskować o wypłatę ekwiwalentu przy rozwiązaniu umowy?",
+                "Czy trzeba zrobić żeby dostać wypłatę ekwiwalentu przy rozwiązaniu umowy?",
+                "Czy muszę składać jakieś dokumenty żeby otrzymać ekwiwalent gdy kończę pracę?",
+                "Czy w celu otrzymania ekwiwalentu za urlop muszę składać wniosek?"
+            ],
+            "responses": [
+                "Pracownik nie musi wnioskować o wypłatę ekwiwalentu. Pracodawca jest do tego zobligowany przepisami Kodeksu Pracy."
+            ]
+        },
+        {
+            "tag": "wniosek urlop okolicznościowy",
+            "patterns": [
+                "Jak wypełnić wniosek o urlop okolicznościowy?",
+                "Co trzeba wypełnić żeby dostać urlop okolicznościowy?",
+                "Jakie dokumenty muszę dostarczyć żeby dostać urlop okolicznościowy?",
+                "Czy akt ślubu wystarczy żeby otrzymać urlop okolicznościowy?",
+                "Czy akt zgonu wystarczy żeby otrzymać urlop okolicznościowy?",
+                "Mam akt ślubu, czy jeszcze powinnam dostarczyć jakieś dokumenty żeby dostarczyć urlop okolicznościowy?",
+                "Mam akt zgonu, czy są potrzebne jeszcze jakieś dokumenty żeby dostarczyć urlop okolicznościowy?"
+            ],
+            "responses": [
+                "W celu otrzymania urlopu okolicznościowego, tak jak w przypadku urlopu wypoczynkowego, należy złożyć wniosek o urlop do pracodawcy, a w późniejszym czasie potwierdzić zaistniałą okoliczność uprawniającą do dni urlopowych. W przypadku ślubu powinien być to odpis aktu ślubu. "
+            ]
+        },
+        {
+            "tag": "wychowawczy na części",
+            "patterns": [
+                "Czy urlop wychowawczy mogę dzielić na części?",
+                "W ilu częściach mogę wykorzystać wychowawczy?",
+                "Czy urlop wychowawczy można wziąć częściowo?",
+                "Czy urlop wychowawczy można podzielić?",
+                "Czy urlop wychowawczy da się podzielić?",
+                "Czy urlop wychowawczy mogę wziąć w częściach?"
+            ],
+            "responses": [
+                "Urlop wychowawczy jest udzielany nie więcej niż w 5 częściach. Liczbę części ustala się w oparciu o liczbę złożonych wniosków o udzielenie urlopu."
+            ]
+        },
+        {
+            "tag": "wychowawczy wspólnie",
+            "patterns": [
+                "Czy mogę korzystać z urlopu wychowawczego wspólnie z mężem?",
+                "czy mozna wychowawczy razem z małżonkiem ",
+                "Czy możemy korzystać z wychowawczego razem z mężem?",
+                "Czy mogę korzystać z urlopu wychowawczego wspólnie z małżonką?",
+                "Czy mogę korzystać z urlopu wychowawczego wspólnie z żoną?",
+                "Czy mogę korzystać z urlopu wychowawczego wspólnie z małżonkiem?",
+                "Czy mogę być na urlopie wychowawczym wspólnie z małżonkiem?"
+            ],
+            "responses": [
+                "Z urlopu wychowawczego mogą jednocześnie korzystać oboje rodzice lub opiekunowie dziecka. W takim wypadku łączny wymiar urlopu nie może przekraczać 36 miesięcy."
+            ]
+        },
+        {
+            "tag": "wykorzystać urlop",
+            "patterns": [
+                "Czy muszę wykorzystać cały przysługujący mi urlop?",
+                "Do kiedy mam wziąć urlop z tego roku?",
+                "Został mi urlop z poprzedniego roku? Kiedy muszę go wybrać?",
+                "Czy jest obowiązek wykorzystania całego urlopu?",
+                "Czy jest obowiązek wykorzystania wszystkich dni urlopowych",
+                "Czy muszę wziąć wszystkie dni urlopu",
+                "Czy muszę wykorzystać urlop w pełnym wymiarze",
+                "Czy muszę spożytkować cały urlop w danym roku"
+            ],
+            "responses": [
+                "Pracodawca powinien udzielić pracownikowi urlopu w tym roku kalendarzowym, w którym ten uzyskał do niego prawo, zgodnie z planem urlopów lub po uzgodnieniu i na wniosek pracownika. Pracownik musi wykorzystać urlop wypoczynkowy najpóźniej do 30 września następnego roku."
+            ]
+        },
+        {
+            "tag": "zaświadczenie o niekorzystaniu",
+            "patterns": [
+                "Czy muszę przynieść zaświadczenie o niekorzystaniu drugiego rodzica z opieki nad dzieckiem (art. 188 KP)?",
+                "Czy mam potwierdzić, że drugi z rodziców nie będzie korzystał z opieki nad dzieckiem?",
+                "Matka nie korzysta z opieki nad dzieckiem",
+                "Ojciec nie korzysta z opieki nad dzieckiem",
+                "Drugi rodzic nie ma urlopu na opiekę nad dzieckiem",
+                "Drugi rodzic nie korzysta z opieki nad dzieckiem",
+                "Zaświadczenie o niekorzystaniu drugiego rodzica z opieki nad dzieckiem"
+            ],
+            "responses": [
+                "Nie, opieka nad dzieckiem jest udzielana naszym pracownikom na podstawie ich oświadczenia."
+            ]
+        },
+        {
+            "tag": "zlecenie nadgodzin",
+            "patterns": [
+                "Czy wystarczy mailowe potwierdzenie pracy w nadgodzinach?",
+                "Jak potwierdzić pracę w nadgodzinach?",
+                "Jak zgłosić moje nadgodziny?",
+                "gdzie się zgłasza nadgodziny? ",
+                "W jaki sposób potwierdzić pracę w nadgodzinach?",
+                "Czy mail wystarczy żeby potwierdzić nadgodziny?",
+                "Czy mailowe potwierdzenie wystarczy do zatwierdzenia nadgodzin?",
+                "Czy mailowe potwierdzenie wystarczy przy dodatkowej pracy?"
+            ],
+            "responses": [
+                "Zgodnie z Regulaminem Pracy rozliczenie pracy w godzinach nadliczbowych odbywa się na podstawie pisemnego polecenia wydanego pracownikowi z wyprzedzeniem i potwierdzonego przez przełożonego."
+            ]
+        },
+        {
+            "tag": "zlecenie praca weekend",
+            "patterns": [
+                "Czy przełożony może kazać mi przyjść do pracy w weekend? ",
+                "Mam zlecone nadgodziny w weekend? Dlaczego?",
+                "Czy kierownik może mi zlecić przyjść do pracy w weekend? ",
+                "Czy pracodawca może mi zadać pracę na weekend?",
+                "Praca w weekend, czy mogę odmówić?",
+                "Czy mogę odmówić pracy w weekend?",
+                "Czy muszę pracować w weekend, gdy szef mnie poprosi?",
+                "Szef poprosił mnie o pracę w weekend. Czy mogę odmówić?"
+            ],
+            "responses": [
+                "Podobnie jak w przypadku godzin nadliczbowych, pracodawca może zlecić pracownikowi pracę w dniu dla niego wolnym tylko wtedy, gdy: zachodzi konieczność prowadzenia akcji ratowniczej w celu ochrony życia lub zdrowia ludzkiego, ochrony mienia lub środowisk, zachodzi konieczność usunięcia awarii, jest to podyktowane szczególnymi potrzebami pracodawcy."
+            ]
+        },
+        {
+            "tag": "zrzec urlop macierzyński",
+            "patterns": [
+                "Czy mogę zrzec się urlopu macierzyńskiego?",
+                "Czy mogę oddać macierzyński?",
+                "nie chcę urlopu macierzyńskiego?",
+                "Czy muszę korzystać z urlopu macierzyńskiego?",
+                "czy mogę nie wsiąść urlopu macierzyńskiego?"
+            ],
+            "responses": [
+                "Matka może się zrzec części urlopu macierzyńskiego na rzecz ojca dziecka. W tym przypadku okres urlopu macierzyńskiego jednak nie może być krótszy niż 14 tygodni. Po tym czasie resztę urlopu macierzyńskiego może wykorzystać ojciec dziecka."
+            ]
+        },
+        {
+            "tag": "zrzec urlop rodzicielski",
+            "patterns": [
+                "Czy mogę zrezygnować z urlopu rodzicielskiego?",
+                "Czy mogę oddać rodzicielski?"
+            ],
+            "responses": [
+                "Pracownik może zrezygnować z korzystania z urlopu rodzicielskiego w każdym czasie za zgodą pracodawcy i powrócić do pracy."
+            ]
+        },
+        {
+            "tag": "zwolnienie na dziecko",
+            "patterns": [
+                "Czy mogę wziąć zwolnienie lekarskie na dziecko?",
+                "Czy mogę iść na L4 na dziecko?",
+                "zwolnienie lekarskie na dziecko",
+                "ZLA na dziecko",
+                "Jak działa zwolnienie lekarskie na dziecko",
+                "Prawo do zwolnienia lekarskiego na dziecko",
+                "Jaka jest procedura zwolnieni lekarskiego na dziecko"
+            ],
+            "responses": [
+                "W przypadku gdy zachorowało Ci dziecko i nie ma innego członka rodziny, który mógłby się dzieckiem zająć masz prawo wziąć zwolnienie na dziecko. Zasiłek opiekuńczy przysługuje przez okres zwolnienia od pracy z powodu konieczności osobistego sprawowania opieki: -nie dłużej niż przez 60 dni w roku kalendarzowym, jeżeli opieka sprawowana jest nad chorym dzieckiem do lat 14, -nie dłużej niż przez 14 dni w roku kalendarzowym, jeżeli opieka sprawowana jest nad dzieckiem w wieku ponad 14 lat lub innymi chorymi członkami rodziny. Łączny okres wypłaty zasiłku opiekuńczego z powodu opieki nad dziećmi i innymi członkami rodziny nie może przekroczyć 60. dni w roku kalendarzowym.\nZa dzieci, nad którymi sprawowanie opieki daje prawo do zasiłku opiekuńczego, uważa się dzieci własne ubezpieczonego lub jego małżonka oraz dzieci przysposobione, a także dzieci obce przyjęte na wychowanie i utrzymanie. Za innego członka rodziny uważa się małżonka, rodziców, teściów, dziadków, wnuki, rodzeństwo oraz dzieci w wieku ponad 14 lat - pod warunkiem, że pozostają oni z osobą sprawującą opiekę we wspólnym gospodarstwie domowym."
+            ]
+        },
+        {
+            "tag": "zwolnienie na rodzinę",
+            "patterns": [
+                "Czy mogę wziąć zwolnienie lekarskie na mamę?",
+                "Czy mogę wziąć zwolnienie lekarskie na żonę?",
+                "Czy mogę wziąć zwolnienie lekarskie na męża?",
+                "Czy mogę wziąć zwolnienie lekarskie na członka rodziny?",
+                "Czy mogę wziąć L4 na rodzinę?"
+            ],
+            "responses": [
+                "W przypadku gdy zachorowało Ci dziecko powyżej 14 roku życia lub inny członek rodziny pozostający we wspólnym gospodarstwie domowym i nie ma nikogo innego kto mógłby się chorym zająć, masz prawo wziąć zwolnienie lekarskie. Zasiłek opiekuńczy przysługuje przez okres zwolnienia od pracy z powodu konieczności osobistego sprawowania opieki, nie dłużej niż przez 14 dni w roku kalendarzowym. Za innego członka rodziny uważa się małżonka, rodziców, teściów, dziadków, wnuki, rodzeństwo oraz dzieci w wieku ponad 14 lat - pod warunkiem, że pozostają oni z osobą sprawującą opiekę we wspólnym gospodarstwie domowym."
+            ]
+        },
+        {
+            "tag": "zwolnienie na rodzinę wymiar",
+            "patterns": [
+                "Jak długo mogę przebywać na zwolnieniu na chorą mamę?",
+                "Jak długo mogę być na L4 na chorą mamę?",
+                "Jak długo mogę przebywać na zwolnieniu na chorego męża?",
+                "Jak długo mogę być na L4 na chorego męża?",
+                "Jak długo mogę przebywać na zwolnieniu na chorą żonę?",
+                "Jak długo mogę być na L4 na chorą żonę?",
+                "Jak długo mogę przebywać na zwolnieniu na chorego członka rodziny?",
+                "Jak długo mogę być na L4 na chorą żonę/męża?"
+            ],
+            "responses": [
+                "Zasiłek opiekuńczy przysługuje przez okres zwolnienia od pracy z powodu konieczności osobistego sprawowania opieki, nie dłużej niż przez 14 dni w roku kalendarzowym. Za innego członka rodziny uważa się małżonka, rodziców, teściów, dziadków, wnuki, rodzeństwo oraz dzieci w wieku ponad 14 lat - pod warunkiem, że pozostają oni z osobą sprawującą opiekę we wspólnym gospodarstwie domowym."
+            ]
+        },
+        {
+            "tag": "zła odpowiedź",
+            "patterns": [
+                "miałem co innego na myśli",
+                "to nie co chciałem",
+                "zła odpowiedź",
+                "źle mnie zrozumiałeś",
+                "to nie jest odpowiedz na moje pytanie"
+            ],
+            "responses": [
+                "Ok rozumiem, zadaj pytanie prostszym językiem ;)"
+            ]
+        },
+        {
+            "tag": "śmierć dziecka macierzyński",
+            "patterns": [
+                "Moje dziecko zmarło. Czy należy mi się urlop macierzyński?",
+                "Pochowałam dziecko. Co z macierzyńskim?",
+                "Poroniłam. Czy należy mi się urlop macierzyński?",
+                "Poroniłam. Ile macierzyńskiego mogę wykorzystac?",
+                "urodziłam martwe dziecko. Czy należy mi się urlop macierzyński?",
+                "Zmarło mi dziecko w szpitalu. Czy należy mi się urlop macierzyński?"
+            ],
+            "responses": [
+                "W razie urodzenia martwego dziecka lub zgonu dziecka przed upływem 8 tygodni życia, pracownicy przysługuje urlop macierzyński w wymiarze 8 tygodni po porodzie, nie krócej niż przez okres 7 dni od dnia zgonu dziecka. W przypadku zgonu dziecka po upływie 8 tygodni życia, pracownica zachowuje prawo do urlopu macierzyńskiego przez okres 7 dni od dnia zgonu dziecka."
+            ]
+        }
+    ]
+}
